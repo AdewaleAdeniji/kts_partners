@@ -1,0 +1,23 @@
+/* Initial state: element is hidden */
+.fade-in-element {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+  }
+  
+  /* Animation class: element fades in */
+  .fade-in-element.in-view {
+    opacity: 1;
+    animation: fadeIn 3s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px); /* Optional: for a slight upwards movement */
+    }
+    100% {
+      opacity: 1;
+    transform: translateY(0);
+    }
+  }
+  
