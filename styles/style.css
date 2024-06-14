@@ -9,9 +9,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
     display: block
 }
 .page-snappy {
-    overflow-x: hidden;
     height: 100vh;
-    scroll-snap-align: start;
 }
 audio,canvas,progress,video {
     display: inline-block;
